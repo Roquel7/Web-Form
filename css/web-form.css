@@ -1,0 +1,50 @@
+body {
+  background-color: lightgrey;
+  font-family: arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 30px 30px 30px;
+  height: 100%;
+  width: 100%;
+}
+.title {
+
+}
+.title p {
+  margin: -15px 0px 40px 0px;
+}
+.name, .email, .age, .city, .radio, .features, .improvments, .comment, .buttom {
+  padding-bottom: 20px;
+}
+input[type=text], [type=email], [type=number] {
+  width: 77%;
+  padding: 10px;
+}
+input[type=radio] {
+  margin: 10px 0px;
+}
+input[type=checkbox] {
+  margin: 5px 0px;
+}
+select {
+  width: 81%;
+  padding: 30px;
+  border: none;
+  background-color: white;
+  font-size: 15px;
+}
+.button {
+  background-color: #00bfff;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  border-radius: 22px;
+  width: 125px;
+}
+input[type=submit] {
+  border: none;
+  background-color: #00bfff;
+  color: white;
+  font-size: 15px;
+}

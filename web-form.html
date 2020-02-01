@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="css/web-form.css" type="text/css">
+  </head>
+  <body>
+    <form id="survey-form" action="index.html" method="get">
+
+      <div class="inputs">
+        <div class="title">
+          <h1>Survey Form</h1>
+          <p id="description">Thank you for taking the time to help us improve the platform.</p>
+        </div>
+        <div class="name">
+          <div><label for="full-name">Full Name</label></div>
+          <div><input type="text" name="full name" id="full-name" required></div>
+        </div>
+
+        <div class="email">
+          <div><label for="email">Email Address</label></div>
+          <div><input type="email" name="email" id="email"required></div>
+        </div>
+
+        <div class="age">
+          <div><label for="age">Age (optional)</label></div>
+          <div><input type="number" name="age" id="age"></div>
+        </div>
+
+        <div class="city">
+          <div><label for="cities">Which options best describes your current place of residnence?</label></div>
+          <select name="cities" id="cities" required>
+            <option value=" "></option>
+            <option value="lehi">Lehi</option>
+            <option value="american fork">American Fork</option>
+            <option value="eagle mountain">Eagle Mountain</option>
+            <option value="sarotoga springs">Sarotoga Springs</option>
+            <option value="lindon">Lindon</option>
+            <option value="pleasant grove">Pleasant Grove</option>
+            <option value="orem">Orem</option>
+            <option value="provo">Provo</option>
+          </select>
+        </div>
+
+        <div class="radio">
+          <div><label>Would you recommend Utah County to a friend as a place to live?</label></div>
+          <div>
+            <input type="radio" name="definitely">
+            <label for="">Definitely</label>
+          </div>
+          <div>
+            <input type="radio" name="definitely">
+            <label for="">Maybe</label>
+          </div>
+          <div>
+            <input type="radio" name="definitely">
+            <label for="">Not sure</label>
+          </div>
+        </div>
+
+        <div class="features">
+          <div><label for="fav">Select your favorite feature of your city?</label></div>
+          <select name="fav" id="fav" required>
+            <option value=" "></option>
+            <option value="community">Community</option>
+            <option value="churches">Churches</option>
+            <option value="shopping centers">Shopping Centers</option>
+            <option value="schools">Schools</option>
+            <option value="parks">Parks</option>
+            <option value="movie theaters">Movie Theaters</option>
+          </select>
+        </div>
+
+        <div class="improvments">
+          <div ><label for="improvement">What would you like to see improved?</label></div>
+          <div>
+          <input type="checkbox" name="homes" id="improvement">
+          <label for="improvement">Cheaper single family homes</label>
+          </div>
+          <div>
+          <input type="checkbox" name="park" id="improvement">
+          <label for="improvement">Park with pavillion for neighborhoods</label>
+          </div>
+          <div>
+          <input type="checkbox" name="traffic" id="improvement">
+          <label for="improvement">Better traffic flow</label>
+          </div>
+          <div>
+          <input type="checkbox" name="mall" id="improvement">
+          <label for="improvement">Shopping mall</label>
+          </div>
+          <div>
+          <input type="checkbox" name="apartments" id="improvement">
+          <label for="improvement">High Density Apartments</label>
+          </div>
+        </div>
+
+        <div class="comment">
+          <div><label for="suggestions">Any comments or suggestions?</label></div>
+          <div> <textarea name="comment" rows="4" cols="75"></textarea> </div>
+        </div>
+
+        <div class="button">
+          <input type="submit" value="Submit">
+        </div>
+      </div>
+    </form>
+
+  </body>
+</html>
